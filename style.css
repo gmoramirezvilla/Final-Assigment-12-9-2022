@@ -1,0 +1,125 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+}
+
+.todo__container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    width: fit-content;
+
+}
+
+.form{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+}
+.todo-list{
+    display: flex;
+    list-style-type: none;
+    padding:10px;
+    flex-direction: column;
+    gap:10px;
+    border:100px #e6e2d3;
+    border-radius: 15px;
+    align-items: stretch;
+    min-height: 250px;
+    border-radius: 15px;
+    
+}
+
+
+.todo__container{
+    border:100px #e6e2d3;
+    border-radius: 15px;
+}
+
+.todo-list li{
+    border: 1px black solid;
+    background-color: #e6e2d3;
+    border-radius: 5px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px;
+}
+
+.txt-undone {
+    width: 60%;
+    text-align: center;
+    font-family: "Arial";
+}
+
+.btn--delete {
+    width: 30%;
+    padding: 8px 14px;
+    margin: 8px 4px;
+    border: 1px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #f44242;
+    text-align: center;
+  }
+
+.btn--update {
+    width: 30%;
+    padding: 8px 14px;
+    margin: 8px 4px;
+    border: 1px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #42b3f4;
+    text-align: center;
+}
+
+.form button{
+    width: 30%;
+    padding: 8px 14px;
+    margin: 8px 4px;
+    border: 1px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #42b3f4;
+    text-align: center;
+}
+
+.form input{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #88b8ff;
+  }
+
+.txt--update{
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.txt--update:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #88b8ff;
+}
+
